@@ -12,7 +12,7 @@ const port = 3000;
 
 // Import and configure CORS
 app.use(cors({
-  origin: 'https://front-deployment-git-youssefhatem03-dev.apps.rm2.thpm.p1.openshiftapps.com/', // Allow requests from your React app
+  origin: 'https://front-deployment-git-youssefhatem03-dev.apps.rm2.thpm.p1.openshiftapps.com', // Allow requests from your React app
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specific HTTP methods
   credentials: true, // Allow credentials (cookies, headers, etc.)
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
